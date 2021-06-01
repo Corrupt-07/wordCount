@@ -38,18 +38,42 @@ body{
       width: 250px;
   }
   .contentData{
-      font-size: 20;
+      font-size: 20px;
   }
   .sub-continer-1{
       display: flex;
       justify-content: center;
-      /* width: 50%; */
+      width: 80%;
+      align-items: center;
+      margin: 20px;
   }
   .sub-container-2{
       display: flex;
       justify-content: center;
       text-align: center;
       /* width: 80%; */
-      margin-top: 10px;
+      margin: 10px;
+  }
+}
+@media screen and (max-width: 250px) {
+.textareaBox{
+      width: 200px;
+  }
+  .contentData{
+      font-size: 10px;
+  }
+  .sub-continer-1{
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      align-items: center;
+      margin: 20px;
+  }
+  .sub-container-2{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      /* width: 80%; */
+      margin: 10px;
   }
 }
