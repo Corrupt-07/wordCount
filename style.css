@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkslategrey;
+    /* max-width: 10px; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    flex-direction: column;
+   
+}
+/* .container{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 2px solid red; */
+    /* flex-direction: column; */
+/* } */
+.textareaBox{
+    border: none;
+    padding: 0.7rem;
+    width: 30rem;
+}
+.contentData{
+    color: white;
+    /* border: 2px solid saddlebrown; */
+}
+
+@media screen and (max-width: 600px) {
+  .textareaBox{
+      width: 250px;
+  }
+  .contentData{
+      font-size: 20git commit -am "make it better"px;
+  }
+  .sub-continer-1{
+      display: flex;
+      justify-content: center;
+  }
+  .sub-container-2{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      /* width: 80%; */
+      margin-top: 10px;
+  }
+}
