@@ -38,11 +38,12 @@ body{
       width: 250px;
   }
   .contentData{
-      font-size: 20git commit -am "make it better"px;
+      font-size: 20;
   }
   .sub-continer-1{
       display: flex;
       justify-content: center;
+      /* width: 50%; */
   }
   .sub-container-2{
       display: flex;
