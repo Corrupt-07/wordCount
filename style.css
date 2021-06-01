@@ -35,7 +35,7 @@ body{
 
 @media screen and (max-width: 600px) {
   .textareaBox{
-      width: 250px;
+      width: 200px;
   }
   .contentData{
       font-size: 20px;
@@ -57,7 +57,7 @@ body{
 }
 @media screen and (max-width: 250px) {
 .textareaBox{
-      width: 200px;
+      width: 150px;
   }
   .contentData{
       font-size: 10px;
