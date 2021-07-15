@@ -10,12 +10,16 @@ function checkFunc() {
     var dataStatments = enteredWords.split(" ");
     var dataWords = enteredWords.split("");
     if (enteredWords != "") {
+
+        // this are for if words
         for (let el1 of dataStatments) {
             if (/[a-zA-Z0-9]+/.test(el1)) {
                 result1.push(el1);
                 // console.log(result1.length);
             }
         }
+
+        // this are for the single letters
             for (let el2 of dataWords) {
                 if (/[a-zA-Z0-9]+/.test(el2)) {
                     result2.push(el2);
